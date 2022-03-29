@@ -5,5 +5,4 @@ How about adding a friendly greeting in a language you know that is different to
 Viel Spass beim Ueben!
 
 hello
-nihai!!
-ciao!
+

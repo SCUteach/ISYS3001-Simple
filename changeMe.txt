@@ -12,3 +12,9 @@ If you want to be strong, learn to fight alone.
 Thank you...........
 
 Let's see what happens
+
+#added by Pema
+#The following text added by Pema
+This is the first line
+This is the second line
+This is the third line

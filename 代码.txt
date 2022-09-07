@@ -1,0 +1,169 @@
+char paramChar = (char)(Math.random()*26 + 'A');
+//如果想出现随机小写字母,则把 'A' 换为： 'a'
+
+public static int suiji = new Random().nextInt(10);随机数生成
+import java.util.Random;
+
+ String[] words = {"late","pate","pare","parse","rate","tales","east","alerts","post","alerting","steak","live","meat","insert","laser","lapse","angle","super","scrape","retains"};
+ArrayList<String> list1 = new ArrayList(Arrays.asList("tale","teal"));
+        ArrayList<String> list2 = new ArrayList(Arrays.asList("peat","tape"));
+        ArrayList<String> list3 = new ArrayList(Arrays.asList("pear","tape"));
+        ArrayList<String> list4 = new ArrayList(Arrays.asList("asper", "pares", "pears", "prase"));
+        ArrayList<String> list5 = new ArrayList(Arrays.asList("tare","tear"));
+        ArrayList<String> list6 = new ArrayList(Arrays.asList("stale","slate","tesla","steal","least"));
+        ArrayList<String> list7 = new ArrayList(Arrays.asList("eats","sate","seat","seta","teas"));
+        ArrayList<String> list8 = new ArrayList(Arrays.asList("alters","artels","estral","laster","ratels","salter","slater","staler"));
+        ArrayList<String> list9 = new ArrayList(Arrays.asList("pots","spot","stop","tops"));
+        ArrayList<String> list10 = new ArrayList(Arrays.asList("altering","integral","relating","triangle"));
+        ArrayList<String> list11 = new ArrayList(Arrays.asList("skate","stake","takes"));
+        ArrayList<String> list12 = new ArrayList(Arrays.asList("evil","veil","vile"));
+        ArrayList<String> list13 = new ArrayList(Arrays.asList("mate","team","tame"));
+        ArrayList<String> list14 = new ArrayList(Arrays.asList("estrin","inerts","inters","niters","nitres","sinter","triens","trines"));
+        ArrayList<String> list15 = new ArrayList(Arrays.asList("earls","reals","rales","lares"));
+        ArrayList<String> list16 = new ArrayList(Arrays.asList("peals","pleas","pales","sepal"));
+        ArrayList<String> list17 = new ArrayList(Arrays.asList("angel","glean","genal"));
+        ArrayList<String> list18 = new ArrayList(Arrays.asList("purse","sprue"));
+        ArrayList<String> list19 = new ArrayList(Arrays.asList("capers","crapes","spacer","pacers"));
+        ArrayList<String> list20 = new ArrayList(Arrays.asList("staineer","starnie","resiant","nastier","retinas"));
+，在正则表达式中，使用"\\s"来表示一个空白字符。
+
+if(set.equals(Arrays.toString(str)))
+for( )
+anser0 = get.word[0]
+/*Set<String> onekey = super.wordList.keySet();
+        ArrayList<String> twokeys = new ArrayList<>();
+        for( String s : onekey)
+        {
+            twokeys.add(s);
+        }*/
+
+// /*public void keyStation()
+    // {
+        // stage1();
+        // if( i == 1)
+        // {
+            // stage2();
+        // }
+        // if(i == 1)
+        // {
+            // stage3();
+        // }
+        // if(i == 1)
+        // {
+            // System.out.println("胜利");
+        // }
+        // else{
+            // System.out.println("失败");
+        // }
+    // }*/
+    
+    // public void stage1()
+    // {
+        // int Tt = 0;
+        // System.out.println("这是第一关");
+        // Random random = new Random();
+        // int randomIndex = random.nextInt(words.length);
+        // String selectWord = words[randomIndex];
+        // String str[] = selectWord.split("");
+        // //System.out.println(Arrays.toString(str));
+        // for( int a = 0; a < str.length; a++)
+        // {
+            // System.out.print(" "+str[a]);
+        // }
+        
+        // while(Tt < 2)
+        // {
+            // System.out.println("");
+            // System.out.println("观看所给予你的字母拼写适当的单词： ");
+            // Scanner cin = new Scanner(System.in);//输入对象
+            // String wor = cin.nextLine();//接受输入
+            // //ArrayList<String> wordsss = getList(wor);//保存正确答案
+            // String[] str1 = wor.split(" ");
+            // for(String a : str1){
+                // System.out.println(a);
+            // }
+            // /*if( str1.length < 2)
+            // {
+                // i = 0;
+                // break;
+            // }*/
+            // //System.out.println(wordsss);
+            // /*for( String selectWord : list1){
+                
+            // }*/
+            // //ArrayList< String > array = super.wordList.get( twokeys.get(randomIndex));
+            // Set<String> i = wordList.keySet();
+            // //Set zjh = i.Get();
+            // System.out.println(i);
+            // //for( String words : list1){
+                
+            // if(i.equals(wor))
+            // {
+                // System.out.println("yes");
+                // break;
+            // }
+            // else{
+                // System.out.println("“Fail! at least two input words must be valid");
+                // Tt ++;
+            // }
+            // }
+        
+        // if( Tt < 2)
+        // {
+            // System.out.println("通过第一关，进入下一关");
+        // }
+        // else{
+            // i = 0;
+        // }
+    // }
+    
+    
+    // public void stage2()
+    // {
+        // int Tt1 = 0;
+        // for( int a = 0; a < 5; a++)
+        // {
+            // Random random = new Random();
+            // int randomIndex = random.nextInt(words.length);
+            // String selectWord = words[randomIndex];
+            // String t="";
+            // if(selectWord.length() % 2 == 0) 
+            // {
+                // for ( int i = 0; i < selectWord.length()/2; i++) 
+                // {
+                // t += String.valueOf( selectWord.charAt( 2 * i + 1 )) + String.valueOf( selectWord.charAt( 2 * i ));
+                // }
+            // }
+            // else{
+                // for (int i=0;i<selectWord.length()/2;i++) 
+                // {
+                    // t += String.valueOf( selectWord.charAt( 2 * i + 1 ))+String.valueOf( selectWord.charAt( 2 * i ));
+                // }
+                // t += selectWord.charAt( selectWord.length()-1);
+            // }
+            // System.out.print(" "+t );
+            // //String str[] = selectWord.split(" ");
+            // /*for( int b = 0; b < str.length; b++)
+            // {
+            // System.out.print(str[b]);
+            // }*/
+        // }
+        // if( Tt1 < 1)
+        // {
+            // System.out.println("通过第二关，进入下一关");
+        // }
+        // else{
+            // i = 0;
+        // }
+        
+    // }
+    
+    /*public void stage3()
+    {
+        
+    }*/
+
+建立一个String ，含有XX，
+ArrayList<String> list21 = new ArrayList(Arrays.asList(全部单词
+字典名.put.（）；
+在关卡设立一个int型，给予初始化为0，get.XX（int）;
